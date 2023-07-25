@@ -1840,14 +1840,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@uniwebcms/express@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "@uniwebcms/express@npm:2.2.0"
+"@uniwebcms/express@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "@uniwebcms/express@npm:2.2.1"
   dependencies:
     "@headlessui/react": ^1.7.3
     "@popperjs/core": ^2.10.1
     "@react-google-maps/api": ^2.17.1
-    "@uniwebcms/module-sdk": ^1.7.1
+    "@uniwebcms/module-sdk": ^1.8.0
     flowbite-react: ^0.4.9
     react-icons: ^4.6.0
     react-spinners: ^0.13.8
@@ -1855,7 +1855,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     tailwindcss: ^3.2.4
-  checksum: 3794df048c34024211194c58150ee199b7b4b853b3d9767b33844807733101167c56ff38dd75737431722146fd6ffaa60f9462aab26543c77f9c93469b73bfe5
+  checksum: 63bd260bb624774b37bad20f705fda135933462884f5f4e00ab700582288a986c307abbb17f7b36599407cdfbc42b375c2f97442af92235cb90aa6ac7bb7586c
   languageName: node
   linkType: hard
 
@@ -1889,9 +1889,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@uniwebcms/module-sdk@npm:^1.7.1":
-  version: 1.7.1
-  resolution: "@uniwebcms/module-sdk@npm:1.7.1"
+"@uniwebcms/module-sdk@npm:^1.8.0, @uniwebcms/module-sdk@npm:^1.8.1":
+  version: 1.8.1
+  resolution: "@uniwebcms/module-sdk@npm:1.8.1"
   dependencies:
     "@headlessui/react": ^1.7.3
     "@popperjs/core": ^2.10.1
@@ -1902,7 +1902,7 @@ __metadata:
   peerDependencies:
     react: ^18.2.0
     react-dom: ^18.2.0
-  checksum: 43f544593c558520b9bbdffaf38424fc085c6693dd931e77a1f0e5d9b89e4488560da3a10f270f53cc0d80ea21c534bc47e7368bfa511ae7010f56a995db8b4c
+  checksum: 78b87951dfd3dab7c6aabe8f77a6f32bfd9f96618d19bbcf7aa788a304a0f17f970e0a577d9b1fd522891cbce7713be09aac5b24107dd668422fa31790efab51
   languageName: node
   linkType: hard
 
@@ -5477,8 +5477,8 @@ __metadata:
   dependencies:
     "@headlessui/react": ^1.7.13
     "@tailwindcss/line-clamp": ^0.4.4
-    "@uniwebcms/express": ^2.2.0
-    "@uniwebcms/module-sdk": ^1.7.1
+    "@uniwebcms/express": ^2.2.1
+    "@uniwebcms/module-sdk": ^1.8.1
     react: ^18.2.0
     react-dom: ^18.2.0
     react-icons: ^4.6.0
