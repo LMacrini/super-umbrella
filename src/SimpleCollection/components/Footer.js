@@ -37,7 +37,9 @@ export default function Footer({
                 })}
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                &copy; {new Date().getFullYear()} hey. All rights reserved.
+                &copy; {new Date().getFullYear()}{" "}
+                {`${profile.rawHead.first_name} ${profile.rawHead.last_name}`}.
+                All rights reserved.
               </p>
             </div>
           </Box.Inner>

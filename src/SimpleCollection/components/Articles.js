@@ -43,7 +43,7 @@ function Article({ article }) {
         >
           {date ? formatDate(date) : formatDate(lastEditTime.split(" ")[0])}
         </Card.Eyebrow>
-        <Card.Description>Description</Card.Description>
+        <Card.Description>{article.rawHead.caption}</Card.Description>
         <Card.Cta>Read article</Card.Cta>
       </Card>
       <Card.Eyebrow

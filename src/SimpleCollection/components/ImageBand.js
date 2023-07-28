@@ -11,7 +11,6 @@ const rotations = [
 ];
 
 export default function ImageBand(props) {
-  console.log(props);
   const [filterProjects, setFilterProjects] = useLinkedProfileFilterState(
     props.profile,
     "project"
@@ -29,7 +28,6 @@ export default function ImageBand(props) {
   const filtered = [...filteredProjects, ...filteredGroups].filter(
     (item) => item.getBasicInfo().banner
   );
-  console.log(filteredProjects[0].getBasicInfo(), filtered);
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-visible py-4 sm:gap-8">

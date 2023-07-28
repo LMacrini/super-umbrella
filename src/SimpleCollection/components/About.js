@@ -67,6 +67,7 @@ export default function About({
   const pageTitle = page.getPageTitle();
   const pageLeadText = page.getPageLeadText();
   const data = profile.getData();
+  console.log(pageLeadText);
 
   return (
     <Box className="mt-16 sm:mt-32">
