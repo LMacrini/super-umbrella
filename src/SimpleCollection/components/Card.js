@@ -45,17 +45,11 @@ Card.Title = function CardTitle({
   as: Component = "h2",
   href,
   children,
-  target = "_blank",
+  //   target = "_blank",
 }) {
   return (
     <Component className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
-      {href ? (
-        <Card.Link to={href} target={target}>
-          {children}
-        </Card.Link>
-      ) : (
-        children
-      )}
+      {href ? <Card.Link to={href}>{children}</Card.Link> : children}
     </Component>
   );
 };
