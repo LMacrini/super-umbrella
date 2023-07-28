@@ -4,7 +4,6 @@ import { BriefcaseIcon, ArrowDownIcon } from "./Icons";
 import { Image, Link } from "@uniwebcms/module-sdk";
 
 function Project({ profile }) {
-  console.log(profile, profile.getBasicInfo());
   const {
     title,
     subtitle,

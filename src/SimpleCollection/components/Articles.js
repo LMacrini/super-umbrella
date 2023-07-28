@@ -77,7 +77,6 @@ const IndexPage = ({ list, profile, page, ...props }) => {
 };
 
 const ArticlePage = (key, profile) => {
-  console.log(profile);
   const { title, subtitle } = profile.getBasicInfo();
 
   return (

@@ -3,7 +3,6 @@ import Card from "./Card";
 import { formatDate } from "./formatDate";
 
 function Article({ profile }) {
-  console.log(profile.getBasicInfo());
   const {
     title,
     head: { date },

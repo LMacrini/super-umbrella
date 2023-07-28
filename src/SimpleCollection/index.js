@@ -6,6 +6,7 @@ import ImageBand from "./components/ImageBand";
 import About from "./components/About";
 import BottomSection from "./components/BottomSection";
 import Articles from "./components/Articles";
+import Footer from "./components/Footer";
 // Import the express library
 import * as expressModule from "@uniwebcms/express"; // See README for more details: https://github.com/uniwebcms/express/blob/main/README.md
 // import CSS
@@ -20,4 +21,5 @@ export default {
   About,
   BottomSection,
   Articles,
+  Footer,
 };
