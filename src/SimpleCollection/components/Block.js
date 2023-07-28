@@ -36,7 +36,6 @@ const Group = ({ group }) => {
 };
 
 function Groups(props) {
-  console.log(props);
   const { profile, page } = props;
 
   const pageTitle = page.getPageTitle();
@@ -87,7 +86,6 @@ function Groups(props) {
 }
 
 const renderIndex = ({ list }) => {
-  console.log("profiles: ", list);
   return (
     <div className="space-y-6">
       {list.map((profile) => {
@@ -110,13 +108,11 @@ const renderIndex = ({ list }) => {
 
 const renderSubpage = (key, profile) => {
   let description;
-  console.log(profile);
   if (useLoadProfileBody(profile)) {
     // The description field requires the full profile data. Here we can choose to return null if
     // hasData is false, or we can set the description to the empty string, render what we have in
     // the profile head, and then let the component rerender when the hasData state becomes true.
     description = profile.at("group_description/description");
-    console.log(description);
   }
 
   const { title, subtitle } = profile.getBasicInfo();
@@ -142,7 +138,6 @@ const renderSubpage = (key, profile) => {
 };
 
 export default function Block(props) {
-  console.log("why dont you work");
   //   const {
   //     block: { dataSource },
   //   } = props;
@@ -160,9 +155,7 @@ export default function Block(props) {
     "group"
   );
 
-  console.log(filter);
   const { filtered } = filter;
-  console.log(filtered);
 
   if (!filtered) return null;
 
